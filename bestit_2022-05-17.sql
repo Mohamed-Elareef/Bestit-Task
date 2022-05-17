@@ -7,7 +7,7 @@
 # 
 # Host: 127.0.0.1 ((Ubuntu) 8.0.29)
 # Database: bestit
-# Generation time: 2022-05-17T22:43:03+02:00
+# Generation time: 2022-05-17T22:55:00+02:00
 # ************************************************************
 
 
@@ -126,8 +126,8 @@ LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
 
 INSERT INTO `products` (`id`, `name`, `Description`, `Price`, `Image`) VALUES
-	(1, 'p name 1', 'description 1 .....', 1.5, 'https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/4/4d/Safety_Pin.jpg/1200px-Safety_Pin.jpg'),
-	(2, 'p name 2', 'description 2 .....', 3.2, 'https://i3.wp.com/ae01.alicdn.com/kf/HTB1dIACenlYBeNjSszcq6zwhFXaX.jpg');
+	(1, 'Product name 1', 'description 1 .....', 1.5, 'https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/4/4d/Safety_Pin.jpg/1200px-Safety_Pin.jpg'),
+	(2, 'Product name 2', 'description 2 .....', 3.2, 'https://i3.wp.com/ae01.alicdn.com/kf/HTB1dIACenlYBeNjSszcq6zwhFXaX.jpg');
 
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -176,4 +176,4 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-# Dump completed on 2022-05-17T22:43:03+02:00
+# Dump completed on 2022-05-17T22:55:01+02:00
